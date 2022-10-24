@@ -11,4 +11,9 @@ public class Retangle implements Operation {
     public BigDecimal calculate(Value first, Value second) {
         return first.getValue().multiply(second.getValue());
     }
+
+//    @Override
+//    public String getSymbol() {
+//        return "sqt";
+//    }
 }

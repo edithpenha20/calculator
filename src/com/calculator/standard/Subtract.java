@@ -10,4 +10,9 @@ public class Subtract implements Operation{
     public BigDecimal calculate(Value first, Value second) {
         return first.getValue().subtract(second.getValue());
     }
+
+//    @Override
+//    public String getSymbol() {
+//        return "-";
+//    }
 }

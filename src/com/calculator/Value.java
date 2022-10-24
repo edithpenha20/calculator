@@ -4,7 +4,11 @@ import java.math.BigDecimal;
 
 public class Value {
 
-    private BigDecimal value;
+    private BigDecimal value = BigDecimal.ZERO;
+
+//    public Value(CharSequence input) {
+//        value = new BigDecimal(input.toString());
+//    }
 
     public Value(BigDecimal value) {
         this.value = value;

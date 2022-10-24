@@ -10,4 +10,9 @@ public class Potency implements Operation{
         //return first.getValue().pow(second.getValue()); - segundo valor precisa ser int
         return null;
     }
+
+//    @Override
+//    public String getSymbol() {
+//        return "^";
+//    }
 }

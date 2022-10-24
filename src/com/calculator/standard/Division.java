@@ -11,4 +11,9 @@ public class Division implements Operation{
     public BigDecimal calculate(Value first, Value second) {
         return first.getValue().divide(second.getValue(),3, RoundingMode.UP);
     }
+
+//    @Override
+//    public String getSymbol() {
+//        return "/";
+//    }
 }
