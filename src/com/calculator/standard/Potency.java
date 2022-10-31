@@ -11,8 +11,4 @@ public class Potency implements Operation{
         return null;
     }
 
-//    @Override
-//    public String getSymbol() {
-//        return "^";
-//    }
 }

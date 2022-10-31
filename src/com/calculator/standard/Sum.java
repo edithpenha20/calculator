@@ -12,9 +12,5 @@ public class Sum implements Operation {
         return first.getValue().add(second.getValue());
     }
 
-//    @Override
-//    public String getSymbol() {
-//        return "+";
-//    }
 
 }

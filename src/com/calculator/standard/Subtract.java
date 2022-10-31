@@ -11,8 +11,4 @@ public class Subtract implements Operation{
         return first.getValue().subtract(second.getValue());
     }
 
-//    @Override
-//    public String getSymbol() {
-//        return "-";
-//    }
 }

@@ -11,8 +11,4 @@ public class Multiply implements Operation{
         return first.getValue().multiply(second.getValue());
     }
 
-//    @Override
-//    public String getSymbol() {
-//        return "*";
-//    }
 }

@@ -1,5 +1,7 @@
 package com.calculator;
 
+import com.calculator.area.AreaController;
+import com.calculator.imc.IMCController;
 import com.calculator.standard.StandardCalculatorController;
 
 import java.util.Scanner;
@@ -8,7 +10,9 @@ public class Menu {
 
     public static void main(String[] args) {
 
-        StandardCalculatorController controller = new StandardCalculatorController();
+        StandardCalculatorController calculatorController = new StandardCalculatorController();
+        IMCController imcController = new IMCController();
+        AreaController areaController = new AreaController();
 
         int value;
 
@@ -19,7 +23,14 @@ public class Menu {
 
         switch (value){
             case 1:
-                controller.handle();
+                calculatorController.handle();
+                break;
+            case 2:
+                imcController.handle();
+                break;
+            case 3:
+                areaController.handle();
+                break;
         }
 
 

@@ -12,8 +12,4 @@ public class Division implements Operation{
         return first.getValue().divide(second.getValue(),3, RoundingMode.UP);
     }
 
-//    @Override
-//    public String getSymbol() {
-//        return "/";
-//    }
 }
